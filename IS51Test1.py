@@ -15,3 +15,25 @@ However, if the first salary option and the second salary option equal each othe
 and second salary option are the same. 
 
 """
+
+"""
+Pseudo-Code
+
+option1 is 100 * 10 (1000)
+
+list
+i is 0
+while initialize less than 10
+    amount = amount * 2
+    add amount to list
+total list (1023)
+option2 is list
+         
+If option 1 is better:
+    print "Option 1 is better."
+If option 2 is better:
+    print "Option 2 is better."
+If option 1 and option 2 are the same:
+    priont "Option 1 and Option 2 pays the same."
+
+"""
