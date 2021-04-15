@@ -37,3 +37,26 @@ If option 1 and option 2 are the same:
     priont "Option 1 and Option 2 pays the same."
 
 """
+
+#Python Programming Exam-End
+
+option1 = 100 * 10     #Prints 1000
+# print(option1)
+
+list1 = []
+amount = 1
+while amount <= 600:
+    list1.append(amount)
+    amount *= 2
+                                # print(list1)
+                                # print(sum(list1))
+option2 = sum(list1)
+
+
+
+if option1 > option2:
+    print("Option 1 is better.")
+if option2 > option1:
+    print("Option 2 is better.")
+else:
+    print("Option 1 and Option 2 pays the same.")
